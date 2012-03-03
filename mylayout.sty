@@ -13,6 +13,7 @@
 \usepackage{textcomp}
 %\usepackage{booktabs}
 %\usepackage{longtable}
+\usepackage{ifthen}
 \usepackage[cmyk]{xcolor}
 
 \usepackage[pdftex]{graphicx}
@@ -120,18 +121,35 @@
 \geometry{
 paperwidth=5.125in,
 paperheight=8.25in,
-inner=15mm
+outer=15mm,
+inner=17mm,
+marginparwidth=8mm,
+marginparsep=2mm,
+top=20mm,
+bottom=25mm,
+%showframe
 }
-\setlength{\stockwidth}{5.125in}
-\setlength{\stockheight}{8.25in}
+\setstocksize{8.25in}{5.125in}
+%\settrimmedsize{8.25in}{125mm}{*}
+%\settrims{0pt}{\stockwidth - \paperwidth}
+%\setlrmarginsandblock{15mm}{17mm}{*}
+%\setulmarginsandblock{20mm}{25mm}{*}
 
-\addtolength{\textheight}{3\baselineskip}
-\addtolength{\headheight}{5pt}
-\addtolength{\topmargin}{-1.5\baselineskip}
-\addtolength{\headsep}{0.5\baselineskip}
-\addtolength{\footskip}{0.5\baselineskip}
+%\setlength{\stockwidth}{5.125in}
+%\setlength{\stockheight}{8.25in}
+%\setlength{\trimedge}{\stockwidth}
+%\addtolength{\trimedge}{-\paperwidth}
 
-\setmarginnotes{2mm}{2.5ex}{0.8\baselineskip}
+%\addtolength{\textheight}{3\baselineskip}
+%\addtolength{\headheight}{5pt}
+%\addtolength{\topmargin}{-1.5\baselineskip}
+%\addtolength{\headsep}{0.5\baselineskip}
+%\addtolength{\footskip}{0.5\baselineskip}
+
+\setlength{\marginparpush}{0.8\baselineskip}
+%\setmarginnotes{2mm}{8mm}{0.8\baselineskip}
+
+%\checkandfixthelayout
 
 %% ========
 %% Hyperref
@@ -234,6 +252,30 @@ inner=15mm
   \markboth{#1}{#2}%
 }
 
+\newenvironment{notesdescription}%
+               {\list{}{\labelwidth\z@
+                        \itemindent-\leftmargin
+                        \let\makelabel\notesdesc}}%
+               {\endlist}
+\newcommand*{\notesdesc}[1]{\notesdescriptionlabel #1}
+\newcommand*{\notesdescriptionlabel}[3]{\hspace\labelsep
+{\normalfont
+{\small v}\space\textperiodcentered\space
+{\oldNumFont #1}}\space\textperiodcentered\space
+\textit{#2}\space\textperiodcentered\space \textit{#3}}
+
+\newcommand{\addNotesFile}[1]{
+\newpage
+\thispagestyle{plain}
+%\restoregeometry
+\loadgeometry{notes}
+\Section{Jegyzetek}
+\vspace*{\baselineskip}
+\input{#1}
+%\newpage
+\loadgeometry{verses}
+}
+
 %% =======================
 %% Renewing package macros
 %% =======================
@@ -267,6 +309,25 @@ inner=15mm
 %% ===========
 
 \makepagestyle{normalpage}
+  \makepsmarks{normalpage}{%
+    \def\chaptermark##1{\markboth{\memUChead{##1}}{}}%
+    \def\tocmark{\markboth{\memUChead{\contentsname}}{\memUChead{\contentsname}}}%
+    \def\lofmark{\markboth{\memUChead{\listfigurename}}{\memUChead{\listfigurename}}}%
+    \def\lotmark{\markboth{\memUChead{\listtablename}}{\memUChead{\listtablename}}}%
+    \def\bibmark{\markboth{\memUChead{\bibname}}{\memUChead{\bibname}}}%
+    \def\indexmark{\markboth{\memUChead{\indexname}}{\memUChead{\indexname}}}%
+    \def\sectionmark##1{\markright{\memUChead{##1}}}}
+  \makepsmarks{normalpage}{%
+    \nouppercaseheads
+    \createmark{chapter}{left}{nonumber}{}{}
+    \createmark{section}{right}{nonumber}{}{}
+    \createplainmark{toc}{both}{\contentsname}
+    \createplainmark{lof}{both}{\listfigurename}
+    \createplainmark{lot}{both}{\listtablename}
+    \createplainmark{bib}{both}{\bibname}
+    \createplainmark{index}{both}{\indexname}
+    \createplainmark{glossary}{both}{\glossaryname}
+  }
   \makeevenhead{normalpage}{}{\small\itshape\leftmark}{}
   \makeoddhead{normalpage}{}{\small\itshape\rightmark}{}
   \makeevenfoot{normalpage}{}{\thepage}{}
@@ -336,7 +397,8 @@ inner=15mm
 
 \makechapterstyle{frontmatter}{%
   \chapterstyle{default}
-  \setlength{\beforechapskip}{17mm}
+  \setlength{\beforechapskip}{18mm}
+  \addtolength{\beforechapskip}{-4\baselineskip}
   \setlength{\midchapskip}{2\baselineskip}
   \setlength{\afterchapskip}{2em}
   \renewcommand*{\chapnumfont}{\chapNumFont\chapnamesize}
@@ -350,7 +412,7 @@ inner=15mm
 }
 
 \makechapterstyle{backmatter}{%
-  \chapterstyle{mainmatter}%
+  \chapterstyle{frontmatter}%
   \printchapternonum%
 }
 
@@ -390,7 +452,7 @@ inner=15mm
 }
 
 \setbeforesecskip{-3.5ex \@plus -1ex \@minus -.2ex}
-\setaftersecskip{2.3ex \@plus .2ex}
+\setaftersecskip{2.5ex \@plus .2ex}
 
 \setsecheadstyle{\sectionFont\sectiontitlesize\color{chaptitle}}
 \setsubsecheadstyle{\sectionFont\large\itshape\memRTLraggedright}

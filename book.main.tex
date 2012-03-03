@@ -9,11 +9,11 @@
 \subtitle{Az Erény Útja}
 \author{Fórizs László}
 \date{}
-\editionInfo{\textit{First edition}, 10,000 copies, printed in Boneland -- 2011}
+\editionInfo{\textit{Negyedik kiadás}, 2,000 példány -- 2012}
 % Title comment: ...
 % Publisher name: ...
 % Printer name: ...
-\ISBN{123-4-5678901-2-3}
+\ISBN{978-1-908444-23-3}
 % Copyright text: ...
 
 %% Load further packages
@@ -25,8 +25,6 @@
 %% ======================================
 
 % \hyphenation{}
-
-\makepagenote
 
 \begin{document}
 
@@ -75,6 +73,7 @@
 
 %% Table of Contents
 %% -----------------
+\settocdepth{chapter}
 
 \cleartorecto
 \tableofcontents*
@@ -93,13 +92,11 @@
 %% Editor's Note
 %% ----------------
 
-%\chapter{A Dhammapada szóhasználatáról}
-%\input{./src-tex/szohasznalat.tex}
-
 %% Verse or quote
 %% --------------
 
-\cleartorecto
+%\cleartorecto
+\newpage
 \thispagestyle{empty}
 {\raggedleft\vspace*{5em}
 
@@ -118,6 +115,15 @@ száll magasba tó hattyúja,\\
 
 }
 
+\newgeometry{
+outer=13mm,
+inner=15mm,
+marginparwidth=0mm,
+marginparsep=0mm,
+top=20mm,
+bottom=25mm}
+\savegeometry{notes}
+\restoregeometry
 
 %% Main matter
 %% ===========
@@ -127,95 +133,147 @@ száll magasba tó hattyúja,\\
 \book*{\thetitle}
 
 \setcounter{chapter}{0}
-
 \chapterstyle{versechapter}
+\newgeometry{
+outer=15mm,
+inner=10mm,
+marginparwidth=8mm,
+marginparsep=2mm,
+top=20mm,
+bottom=25mm}
+\savegeometry{verses}
 
 \chapterVagga{Párok}{Yamaka Vagga}
 \input{./src-tex/dhp-1.tex}
 
-%\newpage
-%\section{Jegyzetek}
-%\input{./src-tex/dhp-1-notes.tex}
+\addNotesFile{./src-tex/dhp-1-notes.tex}
 
 \chapterVagga{Éberség}{Appam\=ada Vagga}
 \input{./src-tex/dhp-2.tex}
 
+\addNotesFile{./src-tex/dhp-2-notes.tex}
+
 \chapterVagga{Az Elme}{Citta Vagga}
 \input{./src-tex/dhp-3.tex}
+
+\addNotesFile{./src-tex/dhp-3-notes.tex}
 
 \chapterVagga{Virágok}{Puppha Vagga}
 \input{./src-tex/dhp-4.tex}
 
+\addNotesFile{./src-tex/dhp-4-notes.tex}
+
 \chapterVagga{A Balga}{B\=ala Vagga}
 \input{./src-tex/dhp-5.tex}
 
+\addNotesFile{./src-tex/dhp-5-notes.tex}
+
 \chapterVagga{A Bölcs}{Pa\d{n}\d{d}ita Vagga}
 \input{./src-tex/dhp-6.tex}
-\printpagenotes*
+
+\addNotesFile{./src-tex/dhp-6-notes.tex}
 
 \chapterVagga{A Szent}{Arahanta Vagga}
 \input{./src-tex/dhp-7.tex}
 
+\addNotesFile{./src-tex/dhp-7-notes.tex}
+
 \chapterVagga{Ezrek}{Sahassa Vagga}
 \input{./src-tex/dhp-8.tex}
+
+\addNotesFile{./src-tex/dhp-8-notes.tex}
 
 \chapterVagga{Bűn}{P\=apa Vagga}
 \input{./src-tex/dhp-9.tex}
 
+\addNotesFile{./src-tex/dhp-9-notes.tex}
+
 \chapterVagga{Büntetés}{Da\d{n}\d{d}a Vagga}
 \input{./src-tex/dhp-10.tex}
+
+\addNotesFile{./src-tex/dhp-10-notes.tex}
 
 \chapterVagga{Öregség}{Jar\=a Vagga}
 \input{./src-tex/dhp-11.tex}
 
+\addNotesFile{./src-tex/dhp-11-notes.tex}
+
 \chapterVagga{Önmaga}{Atta Vagga}
 \input{./src-tex/dhp-12.tex}
-\printpagenotes*
+
+\addNotesFile{./src-tex/dhp-12-notes.tex}
 
 \chapterVagga{A Világ}{Loka Vagga}
 \input{./src-tex/dhp-13.tex}
-\printpagenotes*
+
+\addNotesFile{./src-tex/dhp-13-notes.tex}
 
 \chapterVagga{A Buddha}{Buddha Vagga}
 \input{./src-tex/dhp-14.tex}
 
+\addNotesFile{./src-tex/dhp-14-notes.tex}
+
 \chapterVagga{Boldogság}{Sukha Vagga}
 \input{./src-tex/dhp-15.tex}
-\printpagenotes*
+
+\addNotesFile{./src-tex/dhp-15-notes.tex}
 
 \chapterVagga{Gyönyör}{Piya Vagga}
 \input{./src-tex/dhp-16.tex}
 
+% \addNotesFile{./src-tex/dhp-16-notes.tex}
+
 \chapterVagga{Harag}{Kodha Vagga}
 \input{./src-tex/dhp-17.tex}
+
+\addNotesFile{./src-tex/dhp-17-notes.tex}
 
 \chapterVagga{Tisztátalanság}{Mala Vagga}
 \input{./src-tex/dhp-18.tex}
 
+% \addNotesFile{./src-tex/dhp-18-notes.tex}
+
 \chapterVagga{Erény}{Dhamma\d{t}\d{t}ha Vagga}
 \input{./src-tex/dhp-19.tex}
+
+\addNotesFile{./src-tex/dhp-19-notes.tex}
 
 \chapterVagga{Út}{Magga Vagga}
 \input{./src-tex/dhp-20.tex}
 
+\addNotesFile{./src-tex/dhp-20-notes.tex}
+
 \chapterVagga{Különfélék}{Paki\d{n}\d{n}aka Vagga}
 \input{./src-tex/dhp-21.tex}
+
+\addNotesFile{./src-tex/dhp-21-notes.tex}
 
 \chapterVagga{Pokol}{Niraya Vagga}
 \input{./src-tex/dhp-22.tex}
 
+\addNotesFile{./src-tex/dhp-22-notes.tex}
+
 \chapterVagga{Elefánt}{N\=aga Vagga}
 \input{./src-tex/dhp-23.tex}
+
+\addNotesFile{./src-tex/dhp-23-notes.tex}
 
 \chapterVagga{Szomj}{Ta\d{n}h\=a Vagga}
 \input{./src-tex/dhp-24.tex}
 
+\addNotesFile{./src-tex/dhp-24-notes.tex}
+
 \chapterVagga{A Koldus}{Bhikkhu Vagga}
 \input{./src-tex/dhp-25.tex}
 
+\addNotesFile{./src-tex/dhp-25-notes.tex}
+
 \chapterVagga{A Bráhmana}{Br\=ahma\d{n}a Vagga}
 \input{./src-tex/dhp-26.tex}
-\printpagenotes*
+
+\addNotesFile{./src-tex/dhp-26-notes.tex}
+
+\restoregeometry
 
 %% Backmatter
 %% ==========
@@ -227,8 +285,10 @@ száll magasba tó hattyúja,\\
 
 \chapterstyle{backmatter}
 
-\chapter{Idegen Kifejezések Jegyzéke}
-\input{./src-tex/idegen-kifejezesek.tex}
+\chapter{Jegyzetek Szórendi Listája}
+
+%\chapter{Idegen Kifejezések Jegyzéke}
+%\input{./src-tex/idegen-kifejezesek.tex}
 
 %% Copyright details
 %% -----------------
