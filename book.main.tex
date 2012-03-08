@@ -24,7 +24,7 @@
 %% Hyphenation exceptions and corrections
 %% ======================================
 
-% \hyphenation{}
+\hyphenation{anutthubbha}
 
 \begin{document}
 
@@ -34,6 +34,8 @@
 %% ===========
 
 \frontmatter*
+
+\midsloppy
 
 %% About
 %% -----
@@ -186,8 +188,6 @@ bottom=25mm}
 \chapterVagga{Bűn}{P\=apa Vagga}
 \input{./src-tex/dhp-9.tex}
 
-\addNotesFile{./src-tex/dhp-9-notes.tex}
-
 \chapterVagga{Büntetés}{Da\d{n}\d{d}a Vagga}
 \input{./src-tex/dhp-10.tex}
 
@@ -231,7 +231,7 @@ bottom=25mm}
 \chapterVagga{Tisztátalanság}{Mala Vagga}
 \input{./src-tex/dhp-18.tex}
 
-% \addNotesFile{./src-tex/dhp-18-notes.tex}
+\addNotesFile{./src-tex/dhp-18-notes.tex}
 
 \chapterVagga{Erény}{Dhamma\d{t}\d{t}ha Vagga}
 \input{./src-tex/dhp-19.tex}
@@ -251,12 +251,8 @@ bottom=25mm}
 \chapterVagga{Pokol}{Niraya Vagga}
 \input{./src-tex/dhp-22.tex}
 
-\addNotesFile{./src-tex/dhp-22-notes.tex}
-
 \chapterVagga{Elefánt}{N\=aga Vagga}
 \input{./src-tex/dhp-23.tex}
-
-\addNotesFile{./src-tex/dhp-23-notes.tex}
 
 \chapterVagga{Szomj}{Ta\d{n}h\=a Vagga}
 \input{./src-tex/dhp-24.tex}
@@ -268,7 +264,7 @@ bottom=25mm}
 
 \addNotesFile{./src-tex/dhp-25-notes.tex}
 
-\chapterVagga{A Bráhmana}{Br\=ahma\d{n}a Vagga}
+\chapterVagga{A Bráhmana}{Br\=ahma\d{n}a Vagga}\label{brahmana-vagga}
 \input{./src-tex/dhp-26.tex}
 
 \addNotesFile{./src-tex/dhp-26-notes.tex}
@@ -279,19 +275,30 @@ bottom=25mm}
 %% ==========
 %% Appendices, Glossary, Notes, Index...
 
-\backmatter
+%\backmatter
+%\bookmarksetup{startatroot}
+%\chapterstyle{backmatter}
 
-\bookmarksetup{startatroot}
+\newpage
+\thispagestyle{plain}
+\Section{Jegyzetek Szórendi Listája}
+\markboth{Jegyzetek Szórendi Listája}{Jegyzetek Szórendi Listája}
+\vspace*{\baselineskip}
+\addcontentsline{toc}{chapter}{Jegyzetek Szórendi Listája}
+{\normalsize\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
 
-\chapterstyle{backmatter}
+\begin{longtable}{l r}
+\input{./src-tex/jegyzetek-listaja.tex}
+\end{longtable}
 
-\chapter{Jegyzetek Szórendi Listája}
-
-%\chapter{Idegen Kifejezések Jegyzéke}
-%\input{./src-tex/idegen-kifejezesek.tex}
+}
 
 %% Copyright details
 %% -----------------
+
+\markboth{}{}
+\emptysheet
 
 \cleartorecto
 \thispagestyle{plain}
