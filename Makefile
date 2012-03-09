@@ -18,6 +18,9 @@ again:
 view:
 	evince $(FILE).pdf &
 
+cover-front:
+	$(LATEX) $(LATEX_OPTS) cover_front.tex
+
 clean:
 	+rm -fv $(FILE).{dvi,ps,pdf,aux,log,bbl,blg}
 

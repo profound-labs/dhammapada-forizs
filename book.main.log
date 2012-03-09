@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  8 MAR 2012 15:22
+This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  9 MAR 2012 08:44
  restricted \write18 enabled.
 **book.main.tex
 (./book.main.tex
@@ -2984,13 +2984,13 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
  [98]
 (./src-tex/dhp-18-notes.tex
 LaTeX Font Info:    Try loading font information for OT1+CrimsonRoman(0) on inp
-ut line 17.
-LaTeX Font Info:    No file OT1CrimsonRoman(0).fd. on input line 17.
+ut line 10.
+LaTeX Font Info:    No file OT1CrimsonRoman(0).fd. on input line 10.
 
 
 LaTeX Font Warning: Font shape `OT1/CrimsonRoman(0)/m/n' undefined
 (Font)              using `OT1/cmr/m/n' instead
-(Font)              for ÿsymbol `glqq' on input line 17.
+(Font)              for ÿsymbol `glqq' on input line 10.
 
 )
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -3319,14 +3319,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  )
 
 Here is how much of LuaTeX's memory you used:
- 36099 strings out of 494987
+ 36102 strings out of 494987
  100000,953878 words of node,token memory allocated
- 3529 words of node memory still in use:
+ 3527 words of node memory still in use:
    16 hlist, 13 vlist, 7 rule, 32 glue, 12 penalty, 189 glyph, 161 attribute, 1
 42 glue_spec, 137 attribute_list, 4 write, 6 local_par, 13 pdf_colorstack nodes
-   avail lists: 2:4791,3:780,4:1833,5:329,6:3078,7:115,8:34,9:384,10:518,11:26
- 37680 multiletter control sequences out of 65536+200000
- 87 fonts using 9738883 bytes
+   avail lists: 2:4791,3:778,4:1833,5:329,6:3078,7:115,8:34,9:384,10:518,11:26
+ 37682 multiletter control sequences out of 65536+200000
+ 89 fonts using 9767323 bytes
  69i,12n,57p,705b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/hotaru/.fonts/crimson/Crimson-Semibold.otf></home/hotaru/.fonts/licenced
 -for-harnham/ArnoPro/Arno Pro Light Display/ArnoPro-LightDisplay.otf></home/hot
@@ -3339,7 +3339,7 @@ fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf></home/hotaru/t
 exlive/2011/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></home/hotaru/tex
 live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/hotaru/tex
 live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on book.main.pdf (158 pages, 272372 bytes).
+Output written on book.main.pdf (158 pages, 272414 bytes).
 
 PDF statistics: 908 PDF objects out of 1000 (max. 8388607)
  713 compressed objects within 8 object streams
