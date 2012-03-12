@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  9 MAR 2012 08:44
+This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  12 MAR 2012 09:18
  restricted \write18 enabled.
 **book.main.tex
 (./book.main.tex
@@ -3321,10 +3321,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of LuaTeX's memory you used:
  36102 strings out of 494987
  100000,953878 words of node,token memory allocated
- 3527 words of node memory still in use:
+ 3526 words of node memory still in use:
    16 hlist, 13 vlist, 7 rule, 32 glue, 12 penalty, 189 glyph, 161 attribute, 1
 42 glue_spec, 137 attribute_list, 4 write, 6 local_par, 13 pdf_colorstack nodes
-   avail lists: 2:4791,3:778,4:1833,5:329,6:3078,7:115,8:34,9:384,10:518,11:26
+   avail lists: 2:4791,3:777,4:1833,5:329,6:3078,7:115,8:34,9:384,10:518,11:26
  37682 multiletter control sequences out of 65536+200000
  89 fonts using 9767323 bytes
  69i,12n,57p,705b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3339,7 +3339,7 @@ fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf></home/hotaru/t
 exlive/2011/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></home/hotaru/tex
 live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/hotaru/tex
 live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on book.main.pdf (158 pages, 272414 bytes).
+Output written on book.main.pdf (158 pages, 272711 bytes).
 
 PDF statistics: 908 PDF objects out of 1000 (max. 8388607)
  713 compressed objects within 8 object streams

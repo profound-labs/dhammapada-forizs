@@ -21,6 +21,19 @@ view:
 cover-front:
 	$(LATEX) $(LATEX_OPTS) cover_front.tex
 
+cover-back:
+	$(LATEX) $(LATEX_OPTS) cover_back.tex
+
+cover-spine:
+	$(LATEX) $(LATEX_OPTS) cover_spine.tex
+	+pdftk cover_spine.pdf cat 1-endL output cover_spine_L.pdf
+
+cover:
+	make cover-front
+	make cover-back
+	make cover-spine
+	$(LATEX) $(LATEX_OPTS) cover.tex
+
 clean:
 	+rm -fv $(FILE).{dvi,ps,pdf,aux,log,bbl,blg}
 
