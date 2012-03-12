@@ -1,0 +1,21 @@
+\documentclass{article}
+% pagesize: 5.125in
+% spinewidth: 9.37mm = 0.368in
+\usepackage[
+  paperwidth=10.618in,
+  paperheight=8.25in,
+  nohead,
+  nofoot,
+  margin=0pt]{geometry}
+\usepackage[cmyk]{xcolor}
+\usepackage{calc}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\graphicspath{{./}}
+\begin{document}
+\mbox{}
+\pagecolor[RGB]{137, 101, 82}
+\AddToShipoutPictureFG*{\put(\LenToUnit{0mm},\LenToUnit{0mm}){\includegraphics[keepaspectratio, height=\paperheight]{cover_back.pdf}}}
+\AddToShipoutPictureFG*{\put(\LenToUnit{5.125in},\LenToUnit{0mm}){\includegraphics[keepaspectratio, height=\paperheight]{cover_spine_L.pdf}}}
+\AddToShipoutPictureFG*{\put(\LenToUnit{5.493in},\LenToUnit{0mm}){\includegraphics[keepaspectratio, height=\paperheight]{cover_front.pdf}}}
+\end{document}

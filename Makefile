@@ -29,10 +29,14 @@ cover-spine:
 	+pdftk cover_spine.pdf cat 1-endL output cover_spine_L.pdf
 
 cover:
+	$(LATEX) $(LATEX_OPTS) cover.tex
+
+
+cover-all:
 	make cover-front
 	make cover-back
 	make cover-spine
-	$(LATEX) $(LATEX_OPTS) cover.tex
+	make cover
 
 clean:
 	+rm -fv $(FILE).{dvi,ps,pdf,aux,log,bbl,blg}

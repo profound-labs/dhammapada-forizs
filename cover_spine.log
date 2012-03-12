@@ -1,355 +1,26 @@
-This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  9 MAR 2012 13:03
+This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  12 MAR 2012 13:06
  restricted \write18 enabled.
-**cover_front.tex
-(./cover_front.tex
+**cover_spine.tex
+(./cover_spine.tex
 LaTeX2e <2011/06/27>
 LuaTeX adaptation of babel <v3.8l-luatex-1.4> and hyphenation patterns for engl
 ish, dumylang, nohyphenation, loaded.
-(/home/hotaru/texlive/2011/texmf-dist/tex/latex/memoir/memoir.cls
-Document Class: memoir 2011/03/06 v3.6j configurable book, report, article docu
-ment class
-\onelineskip=\skip41
-\lxvchars=\skip42
-\xlvchars=\skip43
-\@memcnta=\count79
-\c@@memmarkcntra=\count80
-(/home/hotaru/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
-(/home/hotaru/texlive/2011/texmf-dist/tex/latex/ifetex/ifetex.sty
-Package: ifetex 2011/12/15 v1.2 ifetex
-
-(/home/hotaru/texlive/2011/texmf-dist/tex/plain/ifetex/ifetex.tex))
-(/home/hotaru/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(/home/hotaru/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX detected.
-)
-\stockheight=\skip44
-\stockwidth=\skip45
-\trimtop=\skip46
-\trimedge=\skip47
-
-(/home/hotaru/texlive/2011/texmf-dist/tex/latex/etex-pkg/etex.sty
-Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count81
-)
-(/home/hotaru/texlive/2011/texmf-dist/tex/latex/memoir/mem11.clo
-File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
-)
-\binding=\skip48
-\spinemargin=\skip49
-\foremargin=\skip50
-\uppermargin=\skip51
-\lowermargin=\skip52
-\headdrop=\skip53
-\normalrulethickness=\skip54
-\mem@maxheadheight=\skip55
-\mem@maxfootheight=\skip56
-\headwidth=\skip57
-\c@storedpagenumber=\count82
-\memPD=\dimen102
-\m@mabparskip=\skip58
-\thanksmarkwidth=\skip59
-\thanksmarksep=\skip60
-\droptitle=\skip61
-\c@book=\count83
-\c@part=\count84
-\c@chapter=\count85
-\c@section=\count86
-\c@subsection=\count87
-\c@subsubsection=\count88
-\c@paragraph=\count89
-\c@subparagraph=\count90
-\beforechapskip=\skip62
-\midchapskip=\skip63
-\afterchapskip=\skip64
-\chapindent=\skip65
-\bottomsectionskip=\skip66
-\secindent=\skip67
-\beforesecskip=\skip68
-\aftersecskip=\skip69
-\subsecindent=\skip70
-\beforesubsecskip=\skip71
-\aftersubsecskip=\skip72
-\subsubsecindent=\skip73
-\beforesubsubsecskip=\skip74
-\aftersubsubsecskip=\skip75
-\paraindent=\skip76
-\beforeparaskip=\skip77
-\afterparaskip=\skip78
-\subparaindent=\skip79
-\beforesubparaskip=\skip80
-\aftersubparaskip=\skip81
-\pfbreakskip=\skip82
-\c@@ppsavesec=\count91
-\c@@ppsaveapp=\count92
-\ragrparindent=\dimen103
-\everylistparindent=\dimen104
-\parsepi=\skip83
-\topsepi=\skip84
-\itemsepi=\skip85
-\parsepii=\skip86
-\topsepii=\skip87
-\topsepiii=\skip88
-\itemsepii=\skip89
-\itemsepiii=\skip90
-\partopsepii=\skip91
-\partopsepiii=\skip92
-\m@msavetopsep=\skip93
-\m@msavepartopsep=\skip94
-\@enLab=\toks14
-\abstitleskip=\skip95
-\absleftindent=\skip96
-\abs@leftindent=\dimen105
-\absrightindent=\skip97
-\absparindent=\skip98
-\absparsep=\skip99
-\c@vslineno=\count93
-\c@poemline=\count94
-\c@modulo@vs=\count95
-\c@memfvsline=\count96
-\vleftskip=\skip100
-\vrightskip=\skip101
-\stanzaskip=\skip102
-\versewidth=\skip103
-\vgap=\skip104
-\vindent=\skip105
-\vleftmargin=\dimen106
-\c@verse=\count97
-\c@chrsinstr=\count98
-\beforepoemtitleskip=\skip106
-\afterpoemtitleskip=\skip107
-\c@poem=\count99
-\beforePoemTitleskip=\skip108
-\midPoemTitleskip=\skip109
-\afterPoemTitleskip=\skip110
-\col@sep=\dimen107
-\extrarowheight=\dimen108
-\NC@list=\toks15
-\extratabsurround=\skip111
-\backup@length=\skip112
-\TX@col@width=\dimen109
-\TX@old@table=\dimen110
-\TX@old@col=\dimen111
-\TX@target=\dimen112
-\TX@delta=\dimen113
-\TX@cols=\count100
-\TX@ftn=\toks16
-\heavyrulewidth=\dimen114
-\lightrulewidth=\dimen115
-\cmidrulewidth=\dimen116
-\belowrulesep=\dimen117
-\belowbottomsep=\dimen118
-\aboverulesep=\dimen119
-\abovetopsep=\dimen120
-\cmidrulesep=\dimen121
-\cmidrulekern=\dimen122
-\defaultaddspace=\dimen123
-\@cmidla=\count101
-\@cmidlb=\count102
-\@aboverulesep=\dimen124
-\@belowrulesep=\dimen125
-\@thisruleclass=\count103
-\@lastruleclass=\count104
-\@thisrulewidth=\dimen126
-\ctableftskip=\skip113
-\ctabrightskip=\skip114
-\abovecolumnspenalty=\count105
-\@linestogo=\count106
-\@cellstogo=\count107
-\@cellsincolumn=\count108
-\crtok=\toks17
-\@mincolumnwidth=\dimen127
-\c@newflo@tctr=\count109
-\mem@margin@floatbox=\box26
-\@contcwidth=\skip115
-\@contindw=\skip116
-\abovecaptionskip=\skip117
-\belowcaptionskip=\skip118
-\subfloattopskip=\skip119
-\subfloatcapskip=\skip120
-\subfloatcaptopadj=\skip121
-\subfloatbottomskip=\skip122
-\subfloatlabelskip=\skip123
-\subfloatcapmargin=\dimen128
-\c@@contsubnum=\count110
-\m@mscap@capbox=\box27
-\m@mscap@fbox=\box28
-\sidecapsep=\dimen129
-\sidecapwidth=\dimen130
-\m@m@tempdima=\dimen131
-\m@mscapraise=\dimen132
-\sidecapraise=\dimen133
-\m@mscapmainwidth=\dimen134
-\m@mscaplkern=\dimen135
-\beforeepigraphskip=\skip124
-\afterepigraphskip=\skip125
-\epigraphwidth=\skip126
-\epigraphrule=\skip127
-LaTeX Info: Redefining \em on input line 7377.
-LaTeX Info: Redefining \emph on input line 7385.
-\tocentryskip=\skip128
-\tocbaseline=\skip129
-\cftparskip=\skip130
-\cftbeforebookskip=\skip131
-\cftbookindent=\dimen136
-\cftbooknumwidth=\dimen137
-\cftbeforepartskip=\skip132
-\cftpartindent=\skip133
-\cftpartnumwidth=\skip134
-\cftbeforechapterskip=\skip135
-\cftchapterindent=\skip136
-\cftchapternumwidth=\skip137
-\cftbeforesectionskip=\skip138
-\cftsectionindent=\skip139
-\cftsectionnumwidth=\skip140
-\cftbeforesubsectionskip=\skip141
-\cftsubsectionindent=\skip142
-\cftsubsectionnumwidth=\skip143
-\cftbeforesubsubsectionskip=\skip144
-\cftsubsubsectionindent=\skip145
-\cftsubsubsectionnumwidth=\skip146
-\cftbeforeparagraphskip=\skip147
-\cftparagraphindent=\skip148
-\cftparagraphnumwidth=\skip149
-\cftbeforesubparagraphskip=\skip150
-\cftsubparagraphindent=\skip151
-\cftsubparagraphnumwidth=\skip152
-\prechapterprecisshift=\dimen138
-\c@maxsecnumdepth=\count111
-\bibindent=\dimen139
-\bibitemsep=\skip153
-\indexcolsep=\skip154
-\indexrule=\skip155
-\indexmarkstyle=\toks18
-\@indexbox=\insert233
-\glossarycolsep=\dimen140
-\glossaryrule=\dimen141
-\sideparvshift=\skip156
-\sideins=\insert232
-\sidebartopsep=\skip157
-\sidebarhsep=\skip158
-\sidebarvsep=\skip159
-\sidebarwidth=\skip160
-\footmarkwidth=\skip161
-\footmarksep=\skip162
-\footparindent=\skip163
-\footinsdim=\skip164
-\footinsv@r=\insert231
-\@mpfootinsv@r=\insert230
-\m@m@k=\count112
-\m@m@h=\dimen142
-\m@mipn@skip=\skip165
-\sidefootins=\insert229
-\sidefootadjust=\skip166
-\sidefootheight=\skip167
-\sidefoothsep=\skip168
-\sidefootvsep=\skip169
-\sidefootwidth=\skip170
-\m@mdownsf=\skip171
-\c@sidefootnote=\count113
-\sidefootmarkwidth=\skip172
-\sidefootmarksep=\skip173
-\sidefootparindent=\skip174
-\c@pagenote=\count114
-\c@pagenoteshadow=\count115
-\mem@pn@lastkern=\skip175
-\every@verbatim=\toks19
-\afterevery@verbatim=\toks20
-\verbatim@line=\toks21
-\tab@position=\count116
-\verbatim@in@stream=\read1
-\verbatimindent=\skip176
-\verbatim@out=\write3
-\bvboxsep=\skip177
-\c@memfbvline=\count117
-\c@bvlinectr=\count118
-\bvnumlength=\skip178
-\fb@frw=\dimen143
-\fb@frh=\dimen144
-\FrameRule=\dimen145
-\FrameSep=\dimen146
-\c@cp@cntr=\count119
-LaTeX Info: Redefining \: on input line 11807.
-LaTeX Info: Redefining \! on input line 11809.
-\c@ism@mctr=\count120
-\c@xsm@mctr=\count121
-\c@csm@mctr=\count122
-\c@ksm@mctr=\count123
-\c@xksm@mctr=\count124
-\c@cksm@mctr=\count125
-\c@msm@mctr=\count126
-\c@xmsm@mctr=\count127
-\c@cmsm@mctr=\count128
-\c@bsm@mctr=\count129
-\c@workm@mctr=\count130
-\c@sheetsequence=\count131
-\c@lastsheet=\count132
-\c@lastpage=\count133
-\c@figure=\count134
-\c@lofdepth=\count135
-\cftbeforefigureskip=\skip179
-\cftfigureindent=\skip180
-\cftfigurenumwidth=\skip181
-\c@table=\count136
-\c@lotdepth=\count137
-\cftbeforetableskip=\skip182
-\cfttableindent=\skip183
-\cfttablenumwidth=\skip184
-Package abstract [2008/07/23] emulated by memoir.
-Package appendix [2008/07/23] emulated by memoir.
-Package array [2008/07/23] emulated by memoir.
-Package booktabs [2008/07/23] emulated by memoir.
-Package ccaption [2008/07/23] emulated by memoir.
-Package changepage [2008/07/23] emulated by memoir.
-Package chngcntr [2008/07/23] emulated by memoir.
-Package chngpage [2008/07/23] emulated by memoir.
-Package crop emulated by memoir.
-Package dcolumn [2008/07/23] emulated by memoir.
-Package delarray [2008/07/23] emulated by memoir.
-Package enumerate [2008/07/23] emulated by memoir.
-Package epigraph [2008/07/23] emulated by memoir.
-Package ifmtarg [2008/07/23] emulated by memoir.
-Package index [2008/07/23] emulated by memoir.
-Package makeidx [2008/07/23] emulated by memoir.
-Package moreverb [2008/07/23] emulated by memoir.
-Package mparhack [2008/07/23] emulated by memoir.
-Package needspace [2008/07/23] emulated by memoir.
-Package newfile [2008/07/23] emulated by memoir.
-Package nextpage [2008/07/23] emulated by memoir.
-Package pagenote [2008/07/23] emulated by memoir.
-Package parskip [2008/07/23] emulated by memoir.
-Package patchcmd [2008/07/23] emulated by memoir.
-Package setspace [2008/07/23] emulated by memoir.
-Package shortvrb [2008/07/23] emulated by memoir.
-Package showidx [2008/07/23] emulated by memoir.
-Package tabularx [2008/07/23] emulated by memoir.
-Package titleref [2008/07/23] emulated by memoir.
-Package titling [2008/07/23] emulated by memoir.
-Package tocbibind [2008/07/23] emulated by memoir.
-Package tocloft [2008/07/23] emulated by memoir.
-Package tocvsec2 [2008/07/23] emulated by memoir.
-Package verbatim [2008/07/23] emulated by memoir.
-Package verse [2008/07/23] emulated by memoir.
-
-(/home/hotaru/texlive/2011/texmf-dist/tex/latex/memoir/mempatch.sty
-Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
-))
-(/home/hotaru/texlive/2011/texmf-dist/tex/latex/soul/soul.sty
-Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks22
-\SOUL@lasttoken=\toks23
-\SOUL@cmds=\toks24
-\SOUL@buffer=\toks25
-\SOUL@token=\toks26
-\SOUL@spaceskip=\skip185
-\SOUL@ttwidth=\dimen147
-\SOUL@uldp=\dimen148
-\SOUL@ulht=\dimen149
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
 )
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -370,6 +41,15 @@ Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 )
 (/home/hotaru/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
@@ -378,9 +58,9 @@ Package pdftexcmds Info: \pdfdraftmode found.
 Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
 
 (/home/hotaru/texlive/2011/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua))
-\pdftexcmds@toks=\toks27
+\pdftexcmds@toks=\toks14
 )
-\Gread@gobject=\count138
+\Gread@gobject=\count87
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
@@ -391,52 +71,32 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-) (/home/hotaru/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+) (/home/hotaru/texlive/2011/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks28
+\KV@toks@=\toks15
 )
-(/home/hotaru/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-(/home/hotaru/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-(/home/hotaru/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
-)
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
-)
-(/home/hotaru/texlive/2011/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
-
-(/home/hotaru/texlive/2011/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
-))
-(/home/hotaru/texlive/2011/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
 (/home/hotaru/texlive/2011/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count139
-\Gm@cntv=\count140
-\c@Gm@tempcnt=\count141
-\Gm@bindingoffset=\dimen152
-\Gm@wd@mp=\dimen153
-\Gm@odd@mp=\dimen154
-\Gm@even@mp=\dimen155
-\Gm@layoutwidth=\dimen156
-\Gm@layoutheight=\dimen157
-\Gm@layouthoffset=\dimen158
-\Gm@layoutvoffset=\dimen159
-\Gm@dimlist=\toks29
+(/home/hotaru/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks16
 )
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2011/09/18 v2.2a Advanced font selection for XeLaTeX/LuaLaTeX
@@ -449,6 +109,11 @@ Package: l3bootstrap 2011/11/25 v3006 L3 Experimental bootstrap code
 
 (/home/hotaru/texlive/2011/texmf-dist/tex/generic/oberdiek/luatex.sty
 Package: luatex 2010/03/09 v0.4 LuaTeX basic definition package (HO)
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count91
+)
 \LuT@AllocAttribute=\count277
 \LuT@AllocCatcodeTable=\count278
 \CatcodeTableStack=\count279
@@ -474,6 +139,17 @@ LaTeX Info: Redefining \addtolength on input line 77.
 )
 Package: expl3 2011/12/29 v3109 L3 Experimental code bundle wrapper
 
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3basics.sty
 Package: l3basics 2011/12/23 v3090 L3 Experimental basic definitions
 )
@@ -813,7 +489,6 @@ LuaLaTeX
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/base/fixltx2e.sty
 Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
 LaTeX Info: Redefining \em on input line 420.
-LaTeX Info: Redefining \textsubscript on input line 424.
 )
 LaTeX Info: Redefining \em on input line 22.
 LaTeX Info: Redefining \emph on input line 29.
@@ -868,9 +543,13 @@ luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)(load: /home/hotaru/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/t
 emp-lmsans10-regular.lua))
 \tipaTiiicode=\count360
-\tipasavetokens=\toks30
-\tipachecktokens=\toks31
-)
+\tipasavetokens=\toks17
+\tipachecktokens=\toks18
+ (/home/hotaru/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen296
+\Gin@req@width=\dimen297
+))
 .................................................
 . xparse info: "define-command"
 . 
@@ -1046,180 +725,82 @@ d: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
-/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
-luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
-/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
-luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
-/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
-fontspec: script 'latn' exists in font 'Shaker2-Light'
-fontspec: script 'latn' exists in font 'Shaker2-Light'
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'Shaker2Light(0)' created for font 'Shaker 2 Light' with options
-. [Ligatures = TeX].
-. 
-. This font family consists of the following shapes:
-.................................................
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf(load: /home/hota
-ru/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/temp-shaker2r.lua)
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-fontspec: script 'latn' exists in font 'Shaker2-Regular'
-fontspec: script 'latn' exists in font 'Shaker2-Regular'
-\g_fontspec_family_Shaker 2 Regular_int=\count363
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Shaker2-Regular'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Shaker2-Regular'
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-luaotfload | load font: font family='shaker2regular', subfamily='bold' found: /
-home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Shaker2Regular/B (it probably doesn't exist).
-.................................................
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-luaotfload | load font: font family='shaker2regular', subfamily='italic' found:
- /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Shaker2Regular/I (it probably doesn't exist).
-.................................................
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-luaotfload | load font: font family='shaker2regular', subfamily='bolditalic' fo
-und: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Shaker2Regular/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'Shaker2Regular(0)' created for font 'Shaker 2 Regular' with
-. options [Ligatures = TeX].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"name:Shaker2Regular:mode=node;script=latn;language=DFLT;+tlig;+trep;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. <->"name:Shaker2Regular:mode=node;script=latn;language=DFLT;+tlig;+trep;+smcp
-;"
-.................................................
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-fontspec: script 'latn' exists in font 'Shaker2-Regular'
-fontspec: script 'latn' exists in font 'Shaker2-Regular'
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Shaker2-Regular'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Shaker2-Regular'
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-luaotfload | load font: font family='shaker2regular', subfamily='bold' found: /
-home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Shaker2Regular/B (it probably doesn't exist).
-.................................................
-luaotfload | load font: font family='shaker2italic', subfamily='regular' found:
- /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2I.otf(load: /home/hotar
-u/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/temp-shaker2i.lua)
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Shaker2-Italic'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Shaker2-Italic'
-luaotfload | load font: font family='shaker2italic', subfamily='regular' found:
- /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2I.otf
-luaotfload | load font: font family='shaker2italic', subfamily='bold' found: /h
-ome/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2I.otf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Shaker2Italic/B (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'Shaker2Regular(1)' created for font 'Shaker 2 Regular' with
-. options [ Ligatures = TeX, ItalicFont = Shaker 2 Italic ].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"name:Shaker2Regular:mode=node;script=latn;language=DFLT;+tlig;+trep;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. <->"name:Shaker2Regular:mode=node;script=latn;language=DFLT;+tlig;+trep;+smcp
-;"
-. 
-. * 'italic' with NFSS spec.:
-. <->"name:Shaker2Italic:mode=node;script=latn;language=DFLT;+tlig;+trep;"
-. 
-. * 'italic small caps' with NFSS spec.:
-. 
-. <->"name:Shaker2Italic:mode=node;script=latn;language=DFLT;+tlig;+trep;+smcp;
-"
-.................................................
-
-(./cover_front.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 36.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 36.
+/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf (./cover_spine.aux
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 16.
 
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    ... okay on input line 16.
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
 /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
 (/home/hotaru/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count364
-\scratchdimen=\dimen296
+\scratchcounter=\count363
+\scratchdimen=\dimen298
 \scratchbox=\box265
-\nofMPsegments=\count365
-\nofMParguments=\count366
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count367
-\MPscratchDim=\dimen297
-\MPnumerator=\count368
-\makeMPintoPDFobject=\count369
-\everyMPtoPDFconversion=\toks33
-) (/home/hotaru/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+\nofMPsegments=\count364
+\nofMParguments=\count365
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count366
+\MPscratchDim=\dimen299
+\MPnumerator=\count367
+\makeMPintoPDFobject=\count368
+\everyMPtoPDFconversion=\toks20
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 596.2275pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 26.66022pt, 0.0pt)
+* \paperwidth=596.2275pt
+* \paperheight=26.66022pt
+* \textwidth=596.2275pt
+* \textheight=26.66022pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-72.26999pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=0.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1246,42 +827,6 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box266
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: custom
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(0.0pt, 370.38374pt, 0.0pt)
-* v-part:(T,H,B)=(0.0pt, 596.2275pt, 0.0pt)
-* \paperwidth=370.38374pt
-* \paperheight=596.2275pt
-* \textwidth=370.38374pt
-* \textheight=596.2275pt
-* \oddsidemargin=-72.26999pt
-* \evensidemargin=-72.26999pt
-* \topmargin=-72.26999pt
-* \headheight=0.0pt
-* \headsep=0.0pt
-* \topskip=11.0pt
-* \footskip=0.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=12.0pt plus 4.0pt minus 4.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1289,127 +834,106 @@ e
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 36.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 36.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 36.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 36.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 36.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 36.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 36.
-LaTeX Font Info:    Redeclaring math accent \check on input line 36.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 36.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 36.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 36.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 36.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 16.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 16.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 16.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 16.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 16.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 16.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 16.
+LaTeX Font Info:    Redeclaring math accent \check on input line 16.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 16.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 16.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 16.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 16.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 16.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 36.
+(Font)              `operators' in the math version `normal' on input line 16.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU2/Shaker2Light(0)/m/n on input line 3
+(Font)                  OT1/cmr/m/n --> EU2/Shaker2Light(0)/m/n on input line 1
 6.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 36.
+(Font)              `operators' in the math version `bold' on input line 16.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU2/Shaker2Light(0)/m/n on input line 
-36.
+16.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/m/n on 
-input line 36.
+input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/m/n on 
-input line 36.
+input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU2/Shaker2Light(0)/m/it on input line
- 36.
+ 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU2/Shaker2Light(0)/bx/n on input line
- 36.
+ 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 36.
+(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 36.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 16.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/bx/n on
- input line 36.
+ input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/bx/n on
- input line 36.
+ input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU2/Shaker2Light(0)/bx/it on input li
-ne 36.
+ne 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 36.
+(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 16.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 36.
-\GPT@outputbox=\box267
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 16.
+\GPT@outputbox=\box266
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
 /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='shaker2italic', subfamily='regular' found:
- /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2I.otf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf <./src-images/bu
-ddha.png, id=1, 433.1382pt x 460.8417pt>
-File: ./src-images/buddha.png Graphic file (type png)
+luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
+/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 24.
 
-<use ./src-images/buddha.png>
-Package pdftex.def Info: ./src-images/buddha.png used on input line 60.
-(pdftex.def)             Requested size: 244.6937pt x 260.34792pt.
- [1
+[1
 
-{/home/hotaru/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./src
--images/buddha.png>] (./cover_front.aux) )
+{/home/hotaru/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./cover_spine.aux) )
 
 Here is how much of LuaTeX's memory you used:
- 19272 strings out of 494987
- 100000,460012 words of node,token memory allocated
- 705 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 2 glue, 3 glyph, 5 attribute, 135 glue_spec, 5 att
-ribute_list, 2 write nodes
-   avail lists: 2:301,3:50,4:224,5:27,6:120,7:11,9:113,10:6
- 22270 multiletter control sequences out of 65536+200000
- 33 fonts using 1757727 bytes
- 53i,13n,38p,393b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
-</home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2I.otf></home/hotaru/.fo
-nts/licenced-for-harnham/Shaker/Shaker2R.otf></home/hotaru/.fonts/licenced-for-
-harnham/Shaker/Shaker2L.otf>
-Output written on cover_front.pdf (1 page, 3350997 bytes).
+ 15509 strings out of 494987
+ 100000,383344 words of node,token memory allocated
+ 290 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 41 glue_spec, 3 attribute_lis
+t, 1 write nodes
+   avail lists: 1:1,2:173,3:6,4:49,5:2,6:57,7:6,9:12,10:6
+ 18591 multiletter control sequences out of 65536+200000
+ 35 fonts using 1693787 bytes
+ 50i,5n,38p,393b,125s stack positions out of 5000i,500n,10000p,200000b,50000s
+</home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf>
+Output written on cover_spine.pdf (1 page, 4245 bytes).
 
-PDF statistics: 30 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+PDF statistics: 15 PDF objects out of 1000 (max. 8388607)
+ 8 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
