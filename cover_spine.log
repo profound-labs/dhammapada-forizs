@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  16 MAR 2012 10:21
+This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  16 MAR 2012 14:19
  restricted \write18 enabled.
 **cover_spine.tex
 (./cover_spine.tex
@@ -930,7 +930,7 @@ t, 1 write nodes
  35 fonts using 1693787 bytes
  50i,5n,38p,393b,125s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf>
-Output written on cover_spine.pdf (1 page, 4245 bytes).
+Output written on cover_spine.pdf (1 page, 4242 bytes).
 
 PDF statistics: 15 PDF objects out of 1000 (max. 8388607)
  8 compressed objects within 1 object stream

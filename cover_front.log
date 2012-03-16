@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  16 MAR 2012 10:19
+This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  16 MAR 2012 14:19
  restricted \write18 enabled.
 **cover_front.tex
 (./cover_front.tex
@@ -1358,7 +1358,7 @@ ribute_list, 2 write nodes
 </home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf></home/hotaru/.fo
 nts/licenced-for-harnham/Shaker/Shaker2I.otf></home/hotaru/.fonts/licenced-for-
 harnham/Shaker/Shaker2L.otf>
-Output written on cover_front.pdf (1 page, 2196030 bytes).
+Output written on cover_front.pdf (1 page, 2196029 bytes).
 
 PDF statistics: 36 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream

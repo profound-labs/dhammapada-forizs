@@ -31,7 +31,6 @@ cover-spine:
 cover:
 	$(LATEX) $(LATEX_OPTS) cover.tex
 
-
 cover-all:
 	make cover-front
 	make cover-back
