@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  12 MAR 2012 13:06
+This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  16 MAR 2012 10:21
  restricted \write18 enabled.
 **cover_spine.tex
 (./cover_spine.tex
@@ -727,27 +727,27 @@ atn)
 luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
 /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf (./cover_spine.aux
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 16.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 18.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 18.
 
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    ... okay on input line 18.
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
@@ -775,11 +775,11 @@ luaotfload | load font: font family='shaker2light', subfamily='regular' found:
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(0.0pt, 596.2275pt, 0.0pt)
-* v-part:(T,H,B)=(0.0pt, 26.66022pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 26.67159pt, 0.0pt)
 * \paperwidth=596.2275pt
-* \paperheight=26.66022pt
+* \paperheight=26.67159pt
 * \textwidth=596.2275pt
-* \textheight=26.66022pt
+* \textheight=26.67159pt
 * \oddsidemargin=-72.26999pt
 * \evensidemargin=-72.26999pt
 * \topmargin=-72.26999pt
@@ -834,70 +834,70 @@ e
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 16.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 16.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 16.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 16.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 16.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 16.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 16.
-LaTeX Font Info:    Redeclaring math accent \check on input line 16.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 16.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 16.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 16.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 16.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 18.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 18.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 18.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 18.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 18.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 18.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 18.
+LaTeX Font Info:    Redeclaring math accent \check on input line 18.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 18.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 18.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 18.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 18.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 18.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 16.
+(Font)              `operators' in the math version `normal' on input line 18.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU2/Shaker2Light(0)/m/n on input line 1
-6.
+8.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 16.
+(Font)              `operators' in the math version `bold' on input line 18.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU2/Shaker2Light(0)/m/n on input line 
-16.
+18.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/m/n on 
-input line 16.
+input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/m/n on 
-input line 16.
+input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU2/Shaker2Light(0)/m/it on input line
- 16.
+ 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU2/Shaker2Light(0)/bx/n on input line
- 16.
+ 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 16.
+(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 16.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 18.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/bx/n on
- input line 16.
+ input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/bx/n on
- input line 16.
+ input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU2/Shaker2Light(0)/bx/it on input li
-ne 16.
+ne 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 16.
+(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 16.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 18.
 \GPT@outputbox=\box266
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
@@ -908,11 +908,11 @@ atn)
 luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
 /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 24.
+(Font)              <10.95> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 24.
+(Font)              <8> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 24.
+(Font)              <6> on input line 26.
 
 [1
 
@@ -920,13 +920,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (./cover_spine.aux) )
 
 Here is how much of LuaTeX's memory you used:
- 15509 strings out of 494987
+ 15508 strings out of 494987
  100000,383344 words of node,token memory allocated
  290 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 41 glue_spec, 3 attribute_lis
 t, 1 write nodes
-   avail lists: 1:1,2:173,3:6,4:49,5:2,6:57,7:6,9:12,10:6
- 18591 multiletter control sequences out of 65536+200000
+   avail lists: 2:173,3:6,4:49,5:2,6:57,7:8,9:12,10:8
+ 18590 multiletter control sequences out of 65536+200000
  35 fonts using 1693787 bytes
  50i,5n,38p,393b,125s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf>

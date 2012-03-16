@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  9 MAR 2012 13:03
+This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  16 MAR 2012 10:19
  restricted \write18 enabled.
 **cover_front.tex
 (./cover_front.tex
@@ -1061,6 +1061,20 @@ fontspec: script 'latn' exists in font 'Shaker2-Light'
 . 
 . This font family consists of the following shapes:
 .................................................
+luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
+/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
+luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
+/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
+fontspec: script 'latn' exists in font 'Shaker2-Light'
+fontspec: script 'latn' exists in font 'Shaker2-Light'
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Shaker2Light(0)' created for font 'Shaker 2 Light' with options
+. [Ligatures = TeX].
+. 
+. This font family consists of the following shapes:
+.................................................
 luaotfload | load font: font family='shaker2regular', subfamily='regular' found
 : /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf(load: /home/hota
 ru/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/temp-shaker2r.lua)
@@ -1069,61 +1083,6 @@ luaotfload | load font: font family='shaker2regular', subfamily='regular' found
 fontspec: script 'latn' exists in font 'Shaker2-Regular'
 fontspec: script 'latn' exists in font 'Shaker2-Regular'
 \g_fontspec_family_Shaker 2 Regular_int=\count363
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Shaker2-Regular'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Shaker2-Regular'
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-luaotfload | load font: font family='shaker2regular', subfamily='bold' found: /
-home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Shaker2Regular/B (it probably doesn't exist).
-.................................................
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-luaotfload | load font: font family='shaker2regular', subfamily='italic' found:
- /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Shaker2Regular/I (it probably doesn't exist).
-.................................................
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-luaotfload | load font: font family='shaker2regular', subfamily='bolditalic' fo
-und: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font Shaker2Regular/BI (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'Shaker2Regular(0)' created for font 'Shaker 2 Regular' with
-. options [Ligatures = TeX].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"name:Shaker2Regular:mode=node;script=latn;language=DFLT;+tlig;+trep;"
-. 
-. * 'small caps' with NFSS spec.:
-. 
-. <->"name:Shaker2Regular:mode=node;script=latn;language=DFLT;+tlig;+trep;+smcp
-;"
-.................................................
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-fontspec: script 'latn' exists in font 'Shaker2-Regular'
-fontspec: script 'latn' exists in font 'Shaker2-Regular'
 luaotfload | load font: font family='shaker2regular', subfamily='regular' found
 : /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
 fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
@@ -1158,7 +1117,7 @@ ome/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2I.otf
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'Shaker2Regular(1)' created for font 'Shaker 2 Regular' with
+. Font family 'Shaker2Regular(0)' created for font 'Shaker 2 Regular' with
 . options [ Ligatures = TeX, ItalicFont = Shaker 2 Italic ].
 . 
 . This font family consists of the following shapes:
@@ -1181,27 +1140,27 @@ ome/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2I.otf
 .................................................
 
 (./cover_front.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 36.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 38.
 
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    ... okay on input line 38.
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
@@ -1289,83 +1248,75 @@ e
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 36.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 36.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 36.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 36.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 36.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 36.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 36.
-LaTeX Font Info:    Redeclaring math accent \check on input line 36.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 36.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 36.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 36.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 36.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 36.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 38.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 38.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 38.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 38.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 38.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 38.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 38.
+LaTeX Font Info:    Redeclaring math accent \check on input line 38.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 38.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 38.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 38.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 38.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 36.
+(Font)              `operators' in the math version `normal' on input line 38.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU2/Shaker2Light(0)/m/n on input line 3
-6.
+8.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 36.
+(Font)              `operators' in the math version `bold' on input line 38.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU2/Shaker2Light(0)/m/n on input line 
-36.
+38.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/m/n on 
-input line 36.
+input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/m/n on 
-input line 36.
+input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU2/Shaker2Light(0)/m/it on input line
- 36.
+ 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU2/Shaker2Light(0)/bx/n on input line
- 36.
+ 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 36.
+(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 36.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 38.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/bx/n on
- input line 36.
+ input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/bx/n on
- input line 36.
+ input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU2/Shaker2Light(0)/bx/it on input li
-ne 36.
+ne 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 36.
+(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 36.
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 38.
 \GPT@outputbox=\box267
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
 /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='shaker2regular', subfamily='regular' found
-: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='shaker2regular', subfamily='regular' found
@@ -1382,34 +1333,35 @@ luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='shaker2regular', subfamily='regular' found
 : /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf <./src-images/bu
-ddha.png, id=1, 433.1382pt x 460.8417pt>
-File: ./src-images/buddha.png Graphic file (type png)
+ddha_sepia.pdf, id=1, 433.62pt x 460.72125pt>
+File: ./src-images/buddha_sepia.pdf Graphic file (type pdf)
 
-<use ./src-images/buddha.png>
-Package pdftex.def Info: ./src-images/buddha.png used on input line 60.
-(pdftex.def)             Requested size: 244.6937pt x 260.34792pt.
+<use ./src-images/buddha_sepia.pdf>
+Package pdftex.def Info: ./src-images/buddha_sepia.pdf used on input line 62.
+(pdftex.def)             Requested size: 244.6937pt x 259.99164pt.
  [1
 
 {/home/hotaru/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./src
--images/buddha.png>] (./cover_front.aux) )
+-images/buddha_sepia.pdf>]
+(./cover_front.aux) )
 
 Here is how much of LuaTeX's memory you used:
- 19272 strings out of 494987
+ 19245 strings out of 494987
  100000,460012 words of node,token memory allocated
  705 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 3 glyph, 5 attribute, 135 glue_spec, 5 att
 ribute_list, 2 write nodes
-   avail lists: 2:301,3:50,4:224,5:27,6:120,7:11,9:113,10:6
- 22270 multiletter control sequences out of 65536+200000
- 33 fonts using 1757727 bytes
- 53i,13n,38p,393b,306s stack positions out of 5000i,500n,10000p,200000b,50000s
-</home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2I.otf></home/hotaru/.fo
-nts/licenced-for-harnham/Shaker/Shaker2R.otf></home/hotaru/.fonts/licenced-for-
+   avail lists: 2:321,3:66,4:247,5:31,6:120,7:11,9:113,10:6
+ 22258 multiletter control sequences out of 65536+200000
+ 33 fonts using 1755639 bytes
+ 53i,13n,38p,393b,304s stack positions out of 5000i,500n,10000p,200000b,50000s
+</home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2R.otf></home/hotaru/.fo
+nts/licenced-for-harnham/Shaker/Shaker2I.otf></home/hotaru/.fonts/licenced-for-
 harnham/Shaker/Shaker2L.otf>
-Output written on cover_front.pdf (1 page, 3350997 bytes).
+Output written on cover_front.pdf (1 page, 2196030 bytes).
 
-PDF statistics: 30 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+PDF statistics: 36 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

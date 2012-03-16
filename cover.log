@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  12 MAR 2012 13:07
+This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  16 MAR 2012 11:54
  restricted \write18 enabled.
 **cover.tex
 (./cover.tex
@@ -22,6 +22,25 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count87
+\calc@Bcount=\count88
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count89
+\calc@Cskip=\skip45
+)
+\onePageWidth=\skip46
+\onePageHeight=\skip47
+\spineWidth=\skip48
+\geoPaperWidth=\skip49
+\frontCoverX=\skip50
+
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -40,17 +59,17 @@ Package ifvtex Info: VTeX not detected.
 (/home/hotaru/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count87
-\Gm@cntv=\count88
-\c@Gm@tempcnt=\count89
-\Gm@bindingoffset=\dimen103
-\Gm@wd@mp=\dimen104
-\Gm@odd@mp=\dimen105
-\Gm@even@mp=\dimen106
-\Gm@layoutwidth=\dimen107
-\Gm@layoutheight=\dimen108
-\Gm@layouthoffset=\dimen109
-\Gm@layoutvoffset=\dimen110
+\Gm@cnth=\count90
+\Gm@cntv=\count91
+\c@Gm@tempcnt=\count92
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@layoutwidth=\dimen109
+\Gm@layoutheight=\dimen110
+\Gm@layouthoffset=\dimen111
+\Gm@layoutvoffset=\dimen112
 \Gm@dimlist=\toks15
 )
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -87,7 +106,7 @@ Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
 (/home/hotaru/texlive/2011/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua))
 \pdftexcmds@toks=\toks16
 )
-\Gread@gobject=\count90
+\Gread@gobject=\count93
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
@@ -98,20 +117,7 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-) (/home/hotaru/texlive/2011/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count91
-\calc@Bcount=\count92
-\calc@Adimen=\dimen111
-\calc@Bdimen=\dimen112
-\calc@Askip=\skip43
-\calc@Bskip=\skip44
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count93
-\calc@Cskip=\skip45
-)
-(/home/hotaru/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/home/hotaru/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
@@ -135,18 +141,18 @@ Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
 Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
 ))
 (./cover.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -156,11 +162,11 @@ LaTeX Font Info:    ... okay on input line 15.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(0.0pt, 767.36258pt, 0.0pt)
+* h-part:(L,W,R)=(0.0pt, 767.43907pt, 0.0pt)
 * v-part:(T,H,B)=(0.0pt, 596.2275pt, 0.0pt)
-* \paperwidth=767.36258pt
+* \paperwidth=767.43907pt
 * \paperheight=596.2275pt
-* \textwidth=767.36258pt
+* \textwidth=767.43907pt
 * \textheight=596.2275pt
 * \oddsidemargin=-72.26999pt
 * \evensidemargin=-72.26999pt
@@ -228,19 +234,19 @@ e
 <cover_back.pdf, id=1, 370.38374pt x 596.2275pt>
 File: cover_back.pdf Graphic file (type pdf)
  <use cover_back.pdf>
-Package pdftex.def Info: cover_back.pdf used on input line 21.
+Package pdftex.def Info: cover_back.pdf used on input line 44.
 (pdftex.def)             Requested size: 370.40543pt x 596.2275pt.
 
-<cover_spine_L.pdf, id=2, 26.6606pt x 596.2275pt>
+<cover_spine_L.pdf, id=2, 26.67165pt x 596.2275pt>
 File: cover_spine_L.pdf Graphic file (type pdf)
  <use cover_spine_L.pdf>
-Package pdftex.def Info: cover_spine_L.pdf used on input line 21.
-(pdftex.def)             Requested size: 26.66214pt x 596.2275pt.
+Package pdftex.def Info: cover_spine_L.pdf used on input line 44.
+(pdftex.def)             Requested size: 26.67319pt x 596.2275pt.
 
 <cover_front.pdf, id=3, 370.38374pt x 596.2275pt>
 File: cover_front.pdf Graphic file (type pdf)
  <use cover_front.pdf>
-Package pdftex.def Info: cover_front.pdf used on input line 21.
+Package pdftex.def Info: cover_front.pdf used on input line 44.
 (pdftex.def)             Requested size: 370.40543pt x 596.2275pt.
 
 [1
@@ -249,19 +255,19 @@ Package pdftex.def Info: cover_front.pdf used on input line 21.
 er_back.pdf> <./cover_spine_L.pdf> <./cover_front.pdf>] (./cover.aux) )
 
 Here is how much of LuaTeX's memory you used:
- 2793 strings out of 494987
+ 2798 strings out of 494987
  100000,128383 words of node,token memory allocated
- 272 words of node memory still in use:
-   2 hlist, 1 vlist, 1 rule, 2 glue, 42 glue_spec, 1 write nodes
+ 292 words of node memory still in use:
+   2 hlist, 1 vlist, 1 rule, 2 glue, 47 glue_spec, 1 write nodes
    avail lists: 2:24,3:18,4:80,5:15,6:24,7:1,9:68
- 6218 multiletter control sequences out of 65536+200000
+ 6223 multiletter control sequences out of 65536+200000
  15 fonts using 431807 bytes
- 38i,11n,35p,241b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,11n,35p,245b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/hotaru/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on cover.pdf (1 page, 3364632 bytes).
+Output written on cover.pdf (1 page, 2209627 bytes).
 
-PDF statistics: 57 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+PDF statistics: 63 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
