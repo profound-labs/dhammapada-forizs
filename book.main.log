@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  12 MAR 2012 09:18
+This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  6 APR 2012 12:47
  restricted \write18 enabled.
 **book.main.tex
 (./book.main.tex
@@ -1971,7 +1971,7 @@ File: bkm-pdftex.def 2011/04/21 v1.21 bookmark driver for pdfTeX (HO)
 .................................................
 . xparse info: "define-command"
 . 
-. Defining document command \Section with arg. spec. 'oom' on line 452.
+. Defining document command \Section with arg. spec. 'oom' on line 477.
 .................................................
 
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/footmisc/footmisc.sty
@@ -2330,7 +2330,7 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [7])
 LaTeX Font Info:    Font shape `EU2/CrimsonRoman(0)/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 89.
+(Font)              scaled to size 8.99994pt on input line 87.
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='texgyrepagellaitalic', subfamily='regular'
@@ -2342,7 +2342,7 @@ luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='arnopro', subfamily='regular' found: /home
 /hotaru/.fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf
-LaTeX Font Info:    Calculating math sizes for size <22> on input line 89.
+LaTeX Font Info:    Calculating math sizes for size <22> on input line 87.
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='crimsonroman', subfamily='regular' found: 
@@ -2357,33 +2357,33 @@ luaotfload | load font: font family='crimsonroman', subfamily='regular' found:
 /home/hotaru/.fonts/crimson/Crimson-Roman.otf
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <22> not available
-(Font)              size <20.74> substituted on input line 89.
+(Font)              size <20.74> substituted on input line 87.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <15.39993> not available
-(Font)              size <14.4> substituted on input line 89.
+(Font)              size <14.4> substituted on input line 87.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 89.
+(Font)              size <20.74> substituted on input line 87.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <15.39993> not available
-(Font)              size <14.4> substituted on input line 89.
+(Font)              size <14.4> substituted on input line 87.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <22> on input line 89.
+(Font)              <22> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <15.39993> on input line 89.
+(Font)              <15.39993> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 89.
+(Font)              <11> on input line 87.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 89.
+(Font)              size <20.74> substituted on input line 87.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <15.39993> not available
-(Font)              size <14.4> substituted on input line 89.
+(Font)              size <14.4> substituted on input line 87.
 
 (./src-tex/bevezetes.tex
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2471,13 +2471,13 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Font shape `EU2/CrimsonRoman(0)/m/it' will be
-(Font)              scaled to size 12.9599pt on input line 148.
+(Font)              scaled to size 12.9599pt on input line 146.
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='texgyrepagellaitalic', subfamily='regular'
  found: texgyrepagella-italic.otf
 LaTeX Font Info:    Font shape `EU2/CrimsonRoman(0)/m/it' will be
-(Font)              scaled to size 10.79993pt on input line 148.
+(Font)              scaled to size 10.79993pt on input line 146.
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='texgyrepagellaitalic', subfamily='regular'
@@ -3299,15 +3299,15 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 Class memoir Warning: The material used in the headers is too large
 (16.0pt) for the given head height (13.6pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 309.
+(in both cases you will find help in the memoir manual). on input line 307.
 
 No complaints by nag.
 \tf@toc=\write5
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
 (./book.main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 309.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 307.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3324,7 +3324,7 @@ Here is how much of LuaTeX's memory you used:
  3526 words of node memory still in use:
    16 hlist, 13 vlist, 7 rule, 32 glue, 12 penalty, 189 glyph, 161 attribute, 1
 42 glue_spec, 137 attribute_list, 4 write, 6 local_par, 13 pdf_colorstack nodes
-   avail lists: 2:4791,3:777,4:1833,5:329,6:3078,7:115,8:34,9:384,10:518,11:26
+   avail lists: 2:4794,3:777,4:1833,5:329,6:3080,7:115,8:34,9:384,10:518,11:26
  37682 multiletter control sequences out of 65536+200000
  89 fonts using 9767323 bytes
  69i,12n,57p,705b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3339,7 +3339,7 @@ fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf></home/hotaru/t
 exlive/2011/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></home/hotaru/tex
 live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/hotaru/tex
 live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on book.main.pdf (158 pages, 272711 bytes).
+Output written on book.main.pdf (158 pages, 272729 bytes).
 
 PDF statistics: 908 PDF objects out of 1000 (max. 8388607)
  713 compressed objects within 8 object streams
