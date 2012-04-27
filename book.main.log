@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  6 APR 2012 12:47
+This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  27 APR 2012 11:21
  restricted \write18 enabled.
 **book.main.tex
 (./book.main.tex
@@ -1387,10 +1387,6 @@ fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font
 luaotfload | load font: font family='crimsonsemibold', subfamily='regular' foun
 d: /home/hotaru/.fonts/crimson/Crimson-Semibold.otf(load: /home/hotaru/.texlive
 2011/texmf-var/luatex-cache/generic/fonts/otf/temp-crimson-semibold.lua)
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Crimson Semibold'
-fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
-'Crimson Semibold'
 luaotfload | load font: font family='texgyrepagellaitalic', subfamily='regular'
  found: texgyrepagella-italic.otf(load: /home/hotaru/.texlive2011/texmf-var/lua
 tex-cache/generic/fonts/otf/temp-texgyrepagella-italic.lua)
@@ -1426,11 +1422,6 @@ luaotfload | load font: font family='crimsonsemibold', subfamily='italic' found
 . 
 . * 'bold' with NFSS spec.:
 . <->"name:CrimsonSemibold:mode=node;script=latn;language=DFLT;+tlig;+trep;"
-. 
-. * 'bold small caps' with NFSS spec.:
-. 
-. <->"name:CrimsonSemibold:mode=node;script=latn;language=DFLT;+tlig;+trep;+smc
-p;"
 . 
 . * 'italic' with NFSS spec.:
 . 
@@ -1757,6 +1748,11 @@ fontspec: script 'latn' exists in font 'Gentium'
 . 
 . This font family consists of the following shapes:
 .................................................
+\vrightmargin=\dimen343
+\verseOddOuterMargin=\skip267
+\verseOddInnerMargin=\skip268
+\verseEvenOuterMargin=\skip269
+\verseEvenInnerMargin=\skip270
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='crimsonroman', subfamily='regular' found: 
@@ -1765,18 +1761,18 @@ luaotfload | load font: font family='crimsonroman', subfamily='regular' found:
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \c@tracingmulticols=\count388
 \mult@box=\box278
-\multicol@leftmargin=\dimen343
+\multicol@leftmargin=\dimen344
 \c@unbalance=\count389
 \c@collectmore=\count390
 \doublecol@number=\count391
 \multicoltolerance=\count392
 \multicolpretolerance=\count393
-\full@width=\dimen344
-\page@free=\dimen345
-\premulticols=\dimen346
-\postmulticols=\dimen347
-\multicolsep=\skip267
-\multicolbaselineskip=\skip268
+\full@width=\dimen345
+\page@free=\dimen346
+\premulticols=\dimen347
+\postmulticols=\dimen348
+\multicolsep=\skip271
+\multicolbaselineskip=\skip272
 \partial@page=\box279
 \last@line=\box280
 \mult@rightbox=\box281
@@ -1802,9 +1798,9 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box301
 \c@columnbadness=\count394
 \c@finalcolumnbadness=\count395
-\last@try=\dimen348
-\multicolovershoot=\dimen349
-\multicolundershoot=\dimen350
+\last@try=\dimen349
+\multicolovershoot=\dimen350
+\multicolundershoot=\dimen351
 \mult@nat@firstbox=\box302
 \colbreak@box=\box303
 \multicol@sort@counter=\count396
@@ -1812,21 +1808,21 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2007/08/08 v1.62 (Daniel Flipo)
 \c@DefaultLines=\count397
-\DefaultFindent=\dimen351
-\DefaultNindent=\dimen352
-\DefaultSlope=\dimen353
+\DefaultFindent=\dimen352
+\DefaultNindent=\dimen353
+\DefaultSlope=\dimen354
 \L@lbox=\box304
 \L@tbox=\box305
 \c@L@lines=\count398
-\L@Pindent=\dimen354
-\L@Findent=\dimen355
-\L@Nindent=\dimen356
-\L@lraise=\dimen357
-\L@first=\dimen358
-\L@next=\dimen359
-\L@slope=\dimen360
-\L@height=\dimen361
-\LettrineWidth=\dimen362
+\L@Pindent=\dimen355
+\L@Findent=\dimen356
+\L@Nindent=\dimen357
+\L@lraise=\dimen358
+\L@first=\dimen359
+\L@next=\dimen360
+\L@slope=\dimen361
+\L@height=\dimen362
+\LettrineWidth=\dimen363
 
 Loading lettrine.cfg
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/lettrine/lettrine.cfg))
@@ -1840,14 +1836,14 @@ Package ifvtex Info: VTeX not detected.
 \Gm@cnth=\count399
 \Gm@cntv=\count400
 \c@Gm@tempcnt=\count401
-\Gm@bindingoffset=\dimen363
-\Gm@wd@mp=\dimen364
-\Gm@odd@mp=\dimen365
-\Gm@even@mp=\dimen366
-\Gm@layoutwidth=\dimen367
-\Gm@layoutheight=\dimen368
-\Gm@layouthoffset=\dimen369
-\Gm@layoutvoffset=\dimen370
+\Gm@bindingoffset=\dimen364
+\Gm@wd@mp=\dimen365
+\Gm@odd@mp=\dimen366
+\Gm@even@mp=\dimen367
+\Gm@layoutwidth=\dimen368
+\Gm@layoutheight=\dimen369
+\Gm@layouthoffset=\dimen370
+\Gm@layoutvoffset=\dimen371
 \Gm@dimlist=\toks41
 )
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -1886,7 +1882,7 @@ Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
 ) (/home/hotaru/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
 )
-\@linkdim=\dimen371
+\@linkdim=\dimen372
 \Hy@linkcounter=\count402
 \Hy@pagecounter=\count403
 
@@ -1914,8 +1910,8 @@ Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4637.
 \Fld@menulength=\count406
-\Field@Width=\dimen372
-\Fld@charsize=\dimen373
+\Field@Width=\dimen373
+\Fld@charsize=\dimen374
 Package hyperref Info: Hyper figures OFF on input line 5757.
 Package hyperref Info: Link nesting OFF on input line 5762.
 Package hyperref Info: Hyper index ON on input line 5765.
@@ -1947,10 +1943,10 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip269
+\Hy@SectionHShift=\skip273
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 166.
-Package hyperref Info: Option `unicode' set `true' on input line 166.
+Package hyperref Info: Option `colorlinks' set `true' on input line 181.
+Package hyperref Info: Option `unicode' set `true' on input line 181.
 
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2011/12/04 v6.82m Hyperref: PDF Unicode definition (HO)
@@ -1966,18 +1962,21 @@ File: bkm-pdftex.def 2011/04/21 v1.21 bookmark driver for pdfTeX (HO)
 \BKM@id=\count413
 ))
 \quotepagebox=\box306
-\toctopskip=\skip270
-\chapheadindent=\dimen374
+\yshiftvref=\skip274
+\dhpvleftm=\skip275
+\dhpvrightm=\skip276
+\toctopskip=\skip277
+\chapheadindent=\dimen375
 .................................................
 . xparse info: "define-command"
 . 
-. Defining document command \Section with arg. spec. 'oom' on line 477.
+. Defining document command \Section with arg. spec. 'oom' on line 567.
 .................................................
 
 (/home/hotaru/texlive/2011/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks42
-\footnotemargin=\dimen375
+\footnotemargin=\dimen376
 \c@pp@next@reset=\count414
 \c@@fnserial=\count415
 
@@ -1999,10 +1998,10 @@ Package: microtype 2010/01/10 v2.4 Micro-typography with pdfTeX (RS)
 \MT@count=\count416
 LaTeX Info: Redefining \lsstyle on input line 1597.
 LaTeX Info: Redefining \lslig on input line 1597.
-\MT@outer@space=\skip271
+\MT@outer@space=\skip278
 LaTeX Info: Redefining \lsstyle on input line 1604.
 LaTeX Info: Redefining \textls on input line 1605.
-\MT@outer@kern=\dimen376
+\MT@outer@kern=\dimen377
 LaTeX Info: Redefining \textmicrotypecontext on input line 2156.
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -2050,13 +2049,13 @@ LaTeX Font Info:    ... okay on input line 29.
 (/home/hotaru/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count418
-\scratchdimen=\dimen377
+\scratchdimen=\dimen378
 \scratchbox=\box307
 \nofMPsegments=\count419
 \nofMParguments=\count420
 \everyMPshowfont=\toks44
 \MPscratchCnt=\count421
-\MPscratchDim=\dimen378
+\MPscratchDim=\dimen379
 \MPnumerator=\count422
 \makeMPintoPDFobject=\count423
 \everyMPtoPDFconversion=\toks45
@@ -2488,38 +2487,34 @@ luaotfload | load font: font family='crimsonroman', subfamily='regular' found:
 /home/hotaru/.fonts/crimson/Crimson-Roman.otf
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
-luaotfload | load font: font family='arnoprolightdisplay', subfamily='regular' 
-found: /home/hotaru/.fonts/licenced-for-harnham/ArnoPro/Arno Pro Light Display/
-ArnoPro-LightDisplay.otf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='arnoprolightdisplay', subfamily='regular' 
-found: /home/hotaru/.fonts/licenced-for-harnham/ArnoPro/Arno Pro Light Display/
-ArnoPro-LightDisplay.otf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='arnoprolightdisplay', subfamily='regular' 
-found: /home/hotaru/.fonts/licenced-for-harnham/ArnoPro/Arno Pro Light Display/
-ArnoPro-LightDisplay.otf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
 luaotfload | load font: font family='crimsonroman', subfamily='regular' found: 
 /home/hotaru/.fonts/crimson/Crimson-Roman.otf
-Underfull \vbox (badness 10000) has occurred while \output is active []
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='arnoprolightdisplay', subfamily='regular' 
+found: /home/hotaru/.fonts/licenced-for-harnham/ArnoPro/Arno Pro Light Display/
+ArnoPro-LightDisplay.otf
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='arnoprolightdisplay', subfamily='regular' 
+found: /home/hotaru/.fonts/licenced-for-harnham/ArnoPro/Arno Pro Light Display/
+ArnoPro-LightDisplay.otf
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='arnoprolightdisplay', subfamily='regular' 
+found: /home/hotaru/.fonts/licenced-for-harnham/ArnoPro/Arno Pro Light Display/
+ArnoPro-LightDisplay.otf
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 4--11
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [17])
@@ -2540,15 +2535,14 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ] (./src-tex/dhp-2.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 4--11
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [22])
@@ -2562,7 +2556,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 ]
 (./src-tex/dhp-3.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 4--11
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2584,7 +2580,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 ]
 (./src-tex/dhp-4.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--8
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2593,14 +2591,11 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [30]
 
-LaTeX Warning: Marginpar on page 31 moved by 14.51512pt.
+LaTeX Warning: Marginpar on page 31 moved by 16.3151pt.
 
 )
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2613,7 +2608,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 ]
 (./src-tex/dhp-5.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 4--10
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2622,9 +2619,6 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [34]
@@ -2644,15 +2638,14 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ] (./src-tex/dhp-6.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 4--12
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [39]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [40])
@@ -2666,6 +2659,11 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 ]
 (./src-tex/dhp-7.tex
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--8
+[] |  $[]$
+ []
+
+
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [43
@@ -2685,7 +2683,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 ]
 (./src-tex/dhp-8.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--8
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2695,15 +2695,12 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 ]
 
-LaTeX Warning: Marginpar on page 48 moved by 12.68657pt.
+LaTeX Warning: Marginpar on page 48 moved by 14.48654pt.
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [48]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [49])
@@ -2720,7 +2717,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ] (./src-tex/dhp-9.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--8
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2735,20 +2734,22 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 [56
 
 ] (./src-tex/dhp-10.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 4--11
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [57]
 
-LaTeX Warning: Marginpar on page 58 moved by 12.67589pt.
+LaTeX Warning: Marginpar on page 58 moved by 14.47586pt.
 
 
-LaTeX Warning: Marginpar on page 58 moved by 27.2124pt.
+LaTeX Warning: Marginpar on page 58 moved by 30.81235pt.
 
 
-LaTeX Warning: Marginpar on page 58 moved by 39.8776pt.
+LaTeX Warning: Marginpar on page 58 moved by 45.27751pt.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2773,7 +2774,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ] (./src-tex/dhp-11.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--8
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2792,7 +2795,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 ]
 (./src-tex/dhp-12.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--8
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2801,9 +2806,6 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [68])
@@ -2817,7 +2819,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 ]
 (./src-tex/dhp-13.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--8
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2845,14 +2849,16 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ] (./src-tex/dhp-14.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--10
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [77]
 
-LaTeX Warning: Marginpar on page 78 moved by 12.70796pt.
+LaTeX Warning: Marginpar on page 78 moved by 14.50793pt.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2861,14 +2867,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [78]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [79]
 
-LaTeX Warning: Marginpar on page 80 moved by 12.66519pt.
+LaTeX Warning: Marginpar on page 80 moved by 14.46516pt.
 
 )
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2884,15 +2887,14 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ] (./src-tex/dhp-15.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--8
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [83]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [84])
@@ -2906,7 +2908,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 ]
 (./src-tex/dhp-16.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--8
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2915,14 +2919,11 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [88]
 
-LaTeX Warning: Marginpar on page 89 moved by 12.66519pt.
+LaTeX Warning: Marginpar on page 89 moved by 14.46516pt.
 
 )
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2931,17 +2932,16 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 [90
 
 ] (./src-tex/dhp-17.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--8
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [91]
 
-LaTeX Warning: Marginpar on page 92 moved by 12.66519pt.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Marginpar on page 92 moved by 14.46516pt.
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2957,7 +2957,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 ]
 (./src-tex/dhp-18.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 4--10
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -2970,7 +2972,7 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [96]
 
-LaTeX Warning: Marginpar on page 97 moved by 14.62207pt.
+LaTeX Warning: Marginpar on page 97 moved by 16.42204pt.
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -3002,6 +3004,11 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ] (./src-tex/dhp-19.tex
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--9
+[] |  $[]$
+ []
+
+
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [101]
@@ -3012,14 +3019,14 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [102]
 
-LaTeX Warning: Marginpar on page 103 moved by 12.70796pt.
+LaTeX Warning: Marginpar on page 103 moved by 14.50793pt.
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [103]
 
-LaTeX Warning: Marginpar on page 104 moved by 12.67589pt.
+LaTeX Warning: Marginpar on page 104 moved by 14.47586pt.
 
 )
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -3035,7 +3042,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ] (./src-tex/dhp-20.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--8
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -3047,9 +3056,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [108]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [109])
@@ -3066,7 +3072,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ] (./src-tex/dhp-21.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--8
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -3091,15 +3099,14 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ] (./src-tex/dhp-22.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 4--11
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [119]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [120])
@@ -3109,15 +3116,14 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 [122
 
 ] (./src-tex/dhp-23.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--8
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [123]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [124])
@@ -3127,31 +3133,24 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 [126
 
 ] (./src-tex/dhp-24.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 4--10
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [127]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [128]
 
-LaTeX Warning: Marginpar on page 129 moved by 12.68657pt.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Marginpar on page 129 moved by 14.48654pt.
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [129]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [130])
@@ -3165,7 +3164,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 ]
 (./src-tex/dhp-25.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 2--8
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -3174,14 +3175,11 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [134]
 
-LaTeX Warning: Marginpar on page 135 moved by 12.67589pt.
+LaTeX Warning: Marginpar on page 135 moved by 14.47586pt.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3218,7 +3216,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
 
 ] (./src-tex/dhp-26.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (2.59601pt too wide) in paragraph at lines 4--10
+[] |  $[]$
+ []
 
 
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
@@ -3230,15 +3230,9 @@ Overfull \vbox (2.4pt too high) has occurred while \output is active []
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [143]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [144]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [145]
@@ -3248,9 +3242,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [146]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (2.4pt too high) has occurred while \output is active []
 
  [147])
@@ -3319,15 +3310,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  )
 
 Here is how much of LuaTeX's memory you used:
- 36102 strings out of 494987
+ 36116 strings out of 494987
  100000,953878 words of node,token memory allocated
- 3526 words of node memory still in use:
-   16 hlist, 13 vlist, 7 rule, 32 glue, 12 penalty, 189 glyph, 161 attribute, 1
-42 glue_spec, 137 attribute_list, 4 write, 6 local_par, 13 pdf_colorstack nodes
-   avail lists: 2:4794,3:777,4:1833,5:329,6:3080,7:115,8:34,9:384,10:518,11:26
- 37682 multiletter control sequences out of 65536+200000
- 89 fonts using 9767323 bytes
- 69i,12n,57p,705b,507s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 3728 words of node memory still in use:
+   16 hlist, 13 vlist, 13 rule, 44 glue, 18 penalty, 189 glyph, 161 attribute, 
+152 glue_spec, 137 attribute_list, 4 write, 6 local_par, 13 pdf_colorstack node
+s
+   avail lists: 2:4794,3:825,4:1833,5:390,6:3080,7:115,8:34,9:384,10:518,11:26
+ 37696 multiletter control sequences out of 65536+200000
+ 89 fonts using 9573463 bytes
+ 69i,12n,57p,705b,500s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/hotaru/.fonts/crimson/Crimson-Semibold.otf></home/hotaru/.fonts/licenced
 -for-harnham/ArnoPro/Arno Pro Light Display/ArnoPro-LightDisplay.otf></home/hot
 aru/texlive/2011/texmf-dist/fonts/truetype/public/gentium/GenR102.ttf></home/ho
@@ -3339,7 +3331,7 @@ fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf></home/hotaru/t
 exlive/2011/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb></home/hotaru/tex
 live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/hotaru/tex
 live/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on book.main.pdf (158 pages, 272729 bytes).
+Output written on book.main.pdf (158 pages, 273881 bytes).
 
 PDF statistics: 908 PDF objects out of 1000 (max. 8388607)
  713 compressed objects within 8 object streams

@@ -75,6 +75,21 @@
 
 \setlength{\vgap}{1.5em}
 \setlength{\vindent}{\vgap}
+% for the verse env., used in the text
+\setlength{\vleftmargin}{2em}
+\newdimen\vrightmargin
+\setlength{\vrightmargin}{2em}
+
+% for the dhpverse env., used for the verses, alternating the margin
+% depending on whether the env. begins on recto or verso
+\newlength\verseOddOuterMargin
+\setlength{\verseOddOuterMargin}{5mm}
+\newlength\verseOddInnerMargin
+\setlength{\verseOddInnerMargin}{20mm}
+\newlength\verseEvenOuterMargin
+\setlength{\verseEvenOuterMargin}{5mm}
+\newlength\verseEvenInnerMargin
+\setlength{\verseEvenInnerMargin}{15mm}
 
 \renewcommand{\normalsize}{%
    \@setfontsize\normalsize\@xipt{16}%
@@ -256,14 +271,91 @@ bottom=25mm,
   \setlength{\parsep}{0pt}%
 }{\end{itemize}}
 
+\def\gobble@spaces{\@ifnextchar\space{\@gobble\gobble@spaces}{}}
+%\newcommand{\verseref}[1]{\mbox{}\marginpar{\par\vspace*{-7pt}\oldNumFont #1.}\gobble@spaces}
+\newcommand{\verseref}[1]{\mbox{}\marginpar{\vspace*{-0.5\marginparpush}\vspace*{1.2pt}\oldNumFont #1.}\gobble@spaces}
+\newcommand{\firstverseref}[2][0pt]{\marginpar{\vspace*{#1}\oldNumFont #2.}}
+
+\newlength\yshiftvref
+
+\newenvironment{firstdhpverse}[2][0pt]{%
+\setlength\yshiftvref{-22pt + #1}
+\noindent
+\firstverseref[\yshiftvref]{#2}
+\hspace*{\verseOddInnerMargin}
+\begin{minipage}{85mm}
+\noindent}
+{\end{minipage}
+\vspace*{-\baselineskip}\vspace*{\vgap}\vspace*{0.5mm}}
+
+\renewenvironment{verse}[1][\linewidth]{%
+  \refstepcounter{verse}%
+  \setcounter{poemline}{0}\refstepcounter{poemline}%
+  \setcounter{vslineno}{1}%
+  \let\\=\@vscentercr
+  \list{}{\itemsep     \z@
+          \itemindent  -\vindent
+          \listparindent\itemindent
+          \leftmargin   \vleftmargin
+          \parsep       \stanzaskip
+          \ifdim #1<\linewidth%   %% short line
+            \rightmargin        \z@
+            \leftmargin         \linewidth
+            \advance\leftmargin -#1\relax
+            \advance\leftmargin -0.5\leftmargin
+            \advance\leftmargin \vindent
+          \else
+            \ifdim #1>\linewidth%  %% long line
+              \rightmargin \z@
+              \leftmargin  \vindent
+            \else%                   %% default
+              \rightmargin \vrightmargin
+              \advance\leftmargin \vindent
+            \fi
+          \fi}
+  \item[]}{\endlist}
+
+\newlength\dhpvleftm
+\newlength\dhpvrightm
+
+\newenvironment{dhpverse}[1][\linewidth]{%
+  \ifthenelse{\isodd{\thepage}}%
+  {\setlength{\dhpvleftm}{\verseOddInnerMargin}%
+   \setlength{\dhpvrightm}{\verseOddOuterMargin}}%
+  {\setlength{\dhpvleftm}{\verseEvenOuterMargin}%
+   \setlength{\dhpvrightm}{\verseEvenInnerMargin}}%
+  \refstepcounter{verse}%
+  \setcounter{poemline}{0}\refstepcounter{poemline}%
+  \setcounter{vslineno}{1}%
+  \let\\=\@vscentercr
+  \list{}{\itemsep     \z@
+          \itemindent  -\vindent
+          \listparindent\itemindent
+          \leftmargin   \dhpvleftm
+          \parsep       \stanzaskip
+          \ifdim #1<\linewidth%   %% short line
+            \rightmargin        \z@
+            \leftmargin         \linewidth
+            \advance\leftmargin -#1\relax
+            \advance\leftmargin -0.5\leftmargin
+            \advance\leftmargin \vindent
+          \else
+            \ifdim #1>\linewidth%  %% long line
+              \rightmargin \z@
+              \leftmargin  \vindent
+            \else%                   %% default
+              \rightmargin \dhpvrightm
+              \advance\leftmargin \vindent
+            \fi
+          \fi}
+  \item[]}{\endlist}
+
 \newcommand\emptysheet{%
   \cleardoublepage
   \thispagestyle{empty}\mbox{}\newpage
   \thispagestyle{empty}\mbox{}\newpage
 }
 
-\def\gobble@spaces{\@ifnextchar\space{\@gobble\gobble@spaces}{}}
-\newcommand{\verseref}[1]{\mbox{}\marginpar{\par\vspace*{-7pt}\oldNumFont #1.}\gobble@spaces}
 \newcommand{\pali}[1]{\textit{#1}}
 \newcommand{\suttaref}[1]{\hspace*{\fill}\footnotesize\begingroup #1 \endgroup\par}
 \newcommand{\attrib}[1]{\nopagebreak{\raggedleft\footnotesize #1\par}}
@@ -418,8 +510,6 @@ bottom=25mm,
 
 \setsecnumdepth{chapter}
 
-\setlength{\vleftmargin}{2em}
-
 \makechapterstyle{frontmatter}{%
   \chapterstyle{default}
   \setlength{\beforechapskip}{18mm}
@@ -442,7 +532,7 @@ bottom=25mm,
 }
 
 \newdimen\chapheadindent
-\setlength{\chapheadindent}{\vleftmargin}
+\setlength{\chapheadindent}{2em}
 
 \makechapterstyle{versechapter}{%
   \chapterstyle{default}
