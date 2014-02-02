@@ -1,3 +1,6 @@
 *.swp
-docs/
+*.aux
+*.log
+*.toc
+book.main.pdf
 pdf-keep/
